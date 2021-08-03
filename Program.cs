@@ -28,6 +28,15 @@ namespace LineComparisonProblem
             {
                 Console.WriteLine("Lengths are not equal");
             }
+            if (distance1 > distance2)
+            {
+                Console.WriteLine("Length 1 is greater than Length 2");
+            }
+            else
+            {
+                Console.WriteLine("Length 1 is less than Length 2");
+            }
+
 
         }
 
